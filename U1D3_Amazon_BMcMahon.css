@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    font-size: smaller;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+}
+
+h1 {
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    width: 100px;
+    margin: left;
+    background-color: black;
+    /* make logo smaller */
+}
+
+.logobanner {
+    background-color: black;
+    /* wrap margin to the edge of page,
+    make smaller */
+}
+
+#logo2 {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    background-color: black;
+}
+
+.logobanner2 {
+    background-color: black;
+}
+
+.nav-section {
+    display: inline-block;
+    text-align: start;
+    position: sticky;
+    width: 100px;
+    height: 30px;
+
+    background-color: rgb(33, 140, 176);
+    /* wrap to edge of page, put in line, make correct size, get correct colour */
+}
+
+h2 {
+    text-align: left;
+    margin-left: 180px;
+    ;
+}
+
+.holidaylink {
+    text-align: center;
+    background-color: orange;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#holidaybg {
+    background-image: image(. //Users/benmcmahon/Documents/epicode/U1/D3/bg-image.png);
+            /*fix link to image*/
+    }
+
+    .Images img {
+        display: flex;
+        width:200px;
+        height:220px;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        border-radius: 10px;
+        margin-right: 20px;
+        margin: 20px;
+
+    }
+
+    .Images2 img {
+        display: inline-block;
+        width: 1000px;
+        height: 300px;
+        margin-left: -80px;
+        border-radius: 0%;
+    }
+
+    #ImagesContainer img {
+        display: inline-block;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: rgb(103, 39, 39);
+    }
+
+    .Holiday Gift Guides {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        bottom: 50%;
+    }
